@@ -1,0 +1,50 @@
+:root{
+--cor-transparente:#ffffffdc;
+}
+
+.pokemon-container {
+    min-height: 88.5vh;
+}
+
+.pokemon-container img{
+    height: 320px;
+    width: 320px;
+}
+.pokemon-container img{
+    height: 320px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 250px;
+    background: url('https://wallpapercave.com/wp/xLZrFev.png') no-repeat;
+    background-size: cover;
+    background-color: var(--cor-transparente);
+    background-blend-mode: overlay;
+
+}
+
+.pokemon-row {
+    background: url('https://i.pinimg.com/originals/ca/e0/1a/cae01ab5cce960db0d7819cc96e97ce8.png') no-repeat;
+    background-size: cover;
+}
+
+.pokemon-container .golpes {
+    background-color: #e21f1fe8;
+    color: #ffffff;
+    padding: 25px;
+    width: 100%;
+}
+
+.pokemon-container .golpes select {
+    background-color: #fcfcfce8;
+    border: 5px #252525 solid;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px;
+    width: 100%;
+}
+
+.pokemon-option{
+    background-color: #060214e8;
+    color: #dfee10;
+
+}

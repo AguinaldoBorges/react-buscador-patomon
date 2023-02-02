@@ -1,0 +1,11 @@
+@font-face {
+    font-family: pokemon;
+    src: url('../../fonts/Pokemon\ Solid.ttf');
+ }
+
+ .logo{
+    font-family: pokemon;
+    letter-spacing: 6px;
+    color: #ffe600;
+
+ }
