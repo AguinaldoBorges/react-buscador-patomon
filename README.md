@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+## 🚀 Buscador Patomon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Buscador Patomon é um projeto React.js que permite aos treinadores de Pokémon buscar informações sobre seus companheiros de batalha e ajustar suas estratégias com facilidade. Com uma interface intuitiva e divertida, os treinadores podem visualizar não apenas os dados básicos do Pokémon, mas também os nomes de quatro golpes disponíveis e substituí-los por outros compatíveis.
 
-## Available Scripts
+![](./src/images/1.png)
 
-In the project directory, you can run:
+### ℹ️ Funcionalidades
 
-### `npm start`
+- **Busca por nome de Pokémon:** ![](./src/images/2.png)
+Os treinadores podem digitar o nome do Pokémon que desejam buscar na barra de pesquisa.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Visualização de informações detalhadas:**![](./src/images/5.png) Após a busca, os treinadores podem visualizar informações básicas sobre o Pokémon, como nome, tipo e sprites, além de quatro golpes disponíveis para o Pokémon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Substituição de golpes:**![](./src/images/3.png) Os treinadores podem escolher entre uma lista de golpes compatíveis e substituir os golpes atuais do Pokémon, ajustando suas estratégias de batalha.
 
-### `npm test`
+### 🛠️ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![](./src/images/4.png)
+- **React**: 🌟 Framework JavaScript para construção de interfaces de usuário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Axios**: 📡 Biblioteca para fazer requisições HTTP.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Bootstrap**: 🎨 Framework front-end para estilização e layout responsivo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📦 Instalação
 
-### `npm run eject`
+1. Clone o repositório:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone https://github.com/seu-usuario/react-buscador-patomon.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navegue até o diretório do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+cd react-buscador-patomon
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Instale as dependências:
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Inicie o servidor de desenvolvimento:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+### 📁 Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O projeto possui a seguinte estrutura de arquivos:
 
-### Analyzing the Bundle Size
+```
+react-buscador-patomon/
+  README.md
+  package.json
+  public/
+    index.html
+    favicon.ico
+  src/
+    components/
+      Header.js
+      CardPokemon.js
+    pages/
+      GetPokemon.js
+    styles/
+      style.css
+    assets/
+      patomon-logo.png
+      ash.png
+    App.js
+    index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🖥️ Componentes Principais
 
-### Making a Progressive Web App
+#### `Header.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Componente responsável por renderizar o cabeçalho da aplicação, incluindo a barra de pesquisa para buscar Pokémon.
 
-### Advanced Configuration
+#### `CardPokemon.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Componente responsável por renderizar as informações detalhadas de um Pokémon encontrado, incluindo nome, tipo, sprites, movimentos e a opção de substituir golpes.
 
-### Deployment
+#### `GetPokemon.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Página principal da aplicação, que inclui o componente `Header` e `CardPokemon` e controla o estado da busca do Pokémon.
 
-### `npm run build` fails to minify
+### 🎮 Substituição de Golpes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Os treinadores podem escolher entre uma lista de golpes compatíveis e substituir os golpes atuais do Pokémon, ajustando suas estratégias de batalha.
+
+### 🤝 Contribuindo
+
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Basta abrir uma issue ou enviar um pull request.
+
+### 📜 Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
