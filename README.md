@@ -2,7 +2,7 @@
 
 O Buscador Patomon é um projeto React.js que permite aos treinadores de Pokémon buscar informações sobre seus companheiros de batalha e ajustar suas estratégias com facilidade. Com uma interface intuitiva e divertida, os treinadores podem visualizar não apenas os dados básicos do Pokémon, mas também os nomes de quatro golpes disponíveis e substituí-los por outros compatíveis.
 
-![](./src/images/1.png)
+!["pikachu"](./src/images/1.png)
 
 ### ℹ️ Funcionalidades
 
